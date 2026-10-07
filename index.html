@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initialscale=1.0">
+ <title>App del Clima - API</title>
+ <link rel="stylesheet" href="estilos.css">
+ <link rel="icon" href="data:image/svg+xml,<svg
+xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em'
+font-size='90'> </text></svg>">
+</head>
+<body>
+ <header>
+ <img src="img/banner.png" alt="Banner de la App del Clima"
+class="banner">
+ <h1> App del Clima</h1>
+ <p>Consulta el clima en tiempo real de cualquier ciudad</p>
+ </header>
+ <main>
+ <form id="formulario" class="buscador">
+ <input type="text" id="inputCiudad" placeholder="Escribe una
+ciudad..." required>
+ <button type="submit"> Consultar</button>
+ </form>
+ <div id="resultado" class="resultado"></div>
+ <p id="estado"></p>
+ </main>
+ <footer>
+ <p>&copy; 2026 - App del Clima | Datos de OpenWeatherMap</p>
+ <p>Banner diseñado en Canva </p>
+ </footer>
+ <script src="script.js"></script>
+</body>
+</html>
