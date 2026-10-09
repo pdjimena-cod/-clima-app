@@ -205,3 +205,13 @@ footer {
         max-width: 100%;
     }
 }
+
+/* RETO 4 - Modo Claro */
+body.modo-claro {
+    background: linear-gradient(135deg, #e0eafc, #cfdef3)!important;
+    color: #333!important;
+}
+body.modo-claro.resultado {
+    background: rgba(255,255,255,0.8);
+    color: #333;
+}
